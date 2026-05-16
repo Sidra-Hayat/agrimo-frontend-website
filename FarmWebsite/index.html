@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrimo | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bg-cream { background-color: #f7f8f3; } 
+        .text-agri-green { color: #45633c; }
+        .bg-agri-green { background-color: #5B8C51; }
+        h1, h2, h3, h4 { 
+        font-family: 'Signika', sans-serif; 
+        font-weight: 700; 
+    }
+    .text-heading-green { color: #404A3D; }
+   
+    </style>
+</head>
+<body class="bg-cream text-gray-900">
+
+    <section class="px-7 pt-7">
+        <div class="relative h-[92vh] rounded-t-[32px] overflow-hidden bg-cover bg-center"
+             style="background-image: url('images/hero.png');">
+            <div class="absolute inset-0 bg-black/45"></div>
+            <nav class="absolute top-0 left-0 w-full z-20 px-7 lg:px-10 py-5 flex justify-between items-center">
+                <img src="images/logo.png" class="h-9" alt="logo">
+                <ul class="hidden lg:flex items-center gap-7 text-white text-[11px] font-medium tracking-wide">
+                    <li><a href="index.html" class="text-yellow-400">HOME</a></li>
+                    <li><a href="about.html">PAGES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="faqs.html">CONTACT US</a></li>
+                </ul>
+                <div class="flex items-center gap-4">
+                    <div class="hidden md:flex items-center gap-3 text-white">
+                        <i class="fa-solid fa-phone text-yellow-400"></i>
+                        <div class="text-xs">
+                            <p class="text-yellow-400">Call us Now</p>
+                            <p class="font-semibold">+1(212)255-511</p>
+                        </div>
+                    </div>
+                    <button class="bg-yellow-400 px-5 py-3 rounded-full font-semibold text-xs flex items-center gap-2">
+                        Get In Touch <img src="images/arrow.png" class="w-3">
+                    </button>
+                </div>
+            </nav>
+            <div class="relative z-10 h-full flex items-center px-8 lg:px-24">
+                <div class="max-w-2xl text-white">
+                    <span class="border border-white/40 px-4 py-1 rounded-full text-[10px] uppercase tracking-widest">Believe in Quality!</span>
+                    <h1 class="text-5xl lg:text-6xl font-semi-bold mt-6 leading-tight">Quality Trust:
+                        <br>Direct to the Farm</h1>
+                        <div class="w-50 h-[1px] bg-white/60 my-6"></div>
+                    <p class="mt-6 text-[12px] text-white/80 max-w-lg">We all need a little space to grow. Give yourself the space you need to find your inner you.</p>
+                    <button class="mt-8 bg-white text-black px-8 py-4 rounded-full font-bold text-sm hover:bg-yellow-400 transition flex items-center gap-2">
+                        Contact Us <img src="images/arrow.png" class="w-4">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-12 grid md:grid-cols-2 gap-16 items-center">
+        <div class="rounded-[40px] overflow-hidden shadow-2xl">
+            <img src="images/watering.png" alt="Farming" class="w-full">
+        </div>
+        <div>
+            <h2 class="text-5xl font-semi-bold text-heading-green leading-tight">Country's first functional food brand</h2>
+            <p class="mt-6 text-gray-500 text-[14px] leading-relaxed">Lorem ipsum dolor sit amet consectetur. Eu vulputate odio lacinia facilisis magna mollis arcu ornare viverra. Et pretium adipiscing auctor mauris sollicitudin non id integer sed. A in ut id vulputate in nulla tortor laoreet vel. Nulla velit dignissim quisque blandit enim nibh aliquet quis hendrerit.</p>
+            <button class="mt-10 bg-agri-green text-white px-8 py-3 rounded-full font-medium flex items-center gap-2">
+                Learn More <img src="images/whitearrow.png" class="w-4">
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-agri-green py-14 px-8  text-white flex flex-wrap gap-4 justify-center text-center">
+        <div class="max-w-[220px]">
+            <div class=" flex items-center justify-center mx-auto mb-5">
+                <img src="images/mail.png" class="w-14 h-14">
+            </div>
+            <h4 class="font-bold text-lg ">Certified Organic Sources</h4>
+            <p class="text-[12px] opacity-70 mt-2">We ensure that only high quality
+certified organic ingredients are used 
+in our products</p>
+        </div>
+        <div class="max-w-[220px]">
+            <div class="  flex items-center justify-center mx-auto mb-5">
+                <img src="images/heart.png" class=" w-14 h-14">
+            </div>
+            <h4 class="font-bold text-lg">Bio-Active Health Benefits</h4>
+            <p class="text-[13px] opacity-70 mt-2">All the products are formulated
+using bio-active foods that is safe
+and verified by clinical trials</p>
+        </div>
+        <div class="max-w-[220px]">
+            <div class="  flex items-center justify-center mx-auto mb-5">
+                <img src="images/formulation.png" class="w-14 h-14">
+            </div>
+            <h4 class="font-bold text-lg">Formulation with Purpose</h4>
+            <p class="text-[12px] opacity-70 mt-2">We use nutritious foods that contain
+bio-active component & expert
+specific body functions</p>
+        </div>
+    </section>
+<section class="py-24 px-12 bg-[#F7F8F3]">
+    <h2 class="text-center text-[36px] font-extrabold text-[#404A3D] mb-16">Featured Functional Food</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+
+
+        <div class="bg-white p-8 rounded-[32px] text-center shadow-sm relative ">
+            <img src="images/corn.png" class="w-36 h-36 object-contain mx-auto mb-6 " alt="Corn">
+            <div class="flex justify-center gap-1 text-yellow-400 text-[10px] mb-2">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#404A3D]">Corn</h3>
+            <p class="mt-1 text-[#45633C] font-extrabold text-sm">$45.00</p>
+            <button class="absolute bottom-4 right-4 bg-[#EBD96B] w-9 h-9 rounded-full flex items-center justify-center shadow-md hover:bg-yellow-500 transition">
+                <i class="fa-solid fa-cart-shopping text-xs text-[#404A3D]"></i>
+            </button>
+        </div>
+        <div class="bg-white p-8 rounded-[32px] text-center shadow-sm relative group hover:shadow-xl transition-all duration-300">
+            <img src="images/tomato.png" class="w-36 h-36 object-contain mx-auto mb-6 group-hover:scale-105 transition duration-300" alt="Tomato">
+            <div class="flex justify-center gap-1 text-yellow-400 text-[10px] mb-2">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#404A3D]">Tomato</h3>
+            <div class="mt-1 text-sm flex justify-center gap-2">
+                <span class="text-gray-300 line-through font-medium">$18.00</span>
+                <span class="text-[#45633C] font-extrabold">$16.00</span>
+            </div>
+            <button class="absolute bottom-4 right-4 bg-[#EBD96B] w-9 h-9 rounded-full flex items-center justify-center shadow-md hover:bg-yellow-500 transition">
+                <i class="fa-solid fa-cart-shopping text-xs text-[#404A3D]"></i>
+            </button>
+        </div>
+        <div class="bg-white p-8 rounded-[32px] text-center shadow-sm relative group hover:shadow-xl transition-all duration-300">
+            <img src="images/cabbage.png" class="w-36 h-36 object-contain mx-auto mb-6 group-hover:scale-105 transition duration-300" alt="Cabbage">
+            <div class="flex justify-center gap-1 text-yellow-400 text-[10px] mb-2">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#404A3D]">Cabbage</h3>
+            <div class="mt-1 text-sm flex justify-center gap-2">
+                <span class="text-gray-300 line-through font-medium">$20.00</span>
+                <span class="text-[#45633C] font-extrabold">$18.00</span>
+            </div>
+            <button class="absolute bottom-4 right-4 bg-[#EBD96B] w-9 h-9 rounded-full flex items-center justify-center shadow-md hover:bg-yellow-500 transition">
+                <i class="fa-solid fa-cart-shopping text-xs text-[#404A3D]"></i>
+            </button>
+        </div>
+        <div class="bg-white p-8 rounded-[32px] text-center shadow-sm relative ">
+            <img src="images/kiwi.png" class="w-36 h-36 object-contain mx-auto mb-6 " alt="Kiwi">
+            <div class="flex justify-center gap-1 text-yellow-400 text-[10px] mb-2">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#404A3D]">Kiwi</h3>
+            <div class="mt-1 text-sm flex justify-center gap-2">
+                <span class="text-gray-300 line-through font-medium">$3.00</span>
+                <span class="text-[#45633C] font-extrabold">$2.00</span>
+            </div>
+            <button class="absolute bottom-4 right-4 bg-[#EBD96B] w-9 h-9 rounded-full flex items-center justify-center uuuuuuuuuuuuuuuuuuuuuuuuy">
+                <i class="fa-solid fa-cart-shopping text-xs text-[#404A3D]"></i>
+            </button>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="py-24 px-12">
+    <h2 class="text-center text-4xl font-extrabold mb-16 text-[#404A3D]">Customer feedback</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="bg-white p-10 rounded-[40px] text-center shadow-sm relative">
+            <img src="images/customer1.png" class="w-20 h-20 rounded-full mx-auto mb-6 ">
+            <p class=" text-md  mb-6 leading-relaxed">“Lorem ipsum dolor sit amet consectetur. Risus libero proin ut purus consequat integer nunc habitant.”</p>
+            <div class="flex justify-center gap-1 text-yellow-400 text-xs mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="font-bold text-lg text-[#404A3D]">Joe Brown</h4>
+            <p class="text-[10px] text-gray-400 uppercase tracking-[2px]">Business Man</p>
+        </div>
+        <div class="bg-white p-10 rounded-[40px] text-center shadow-sm relative">
+            <img src="images/customer2.png" class="w-20 h-20 rounded-full mx-auto mb-6 ">
+            <p class=" text-md mb-6 leading-relaxed">“Lorem ipsum dolor sit amet consectetur. Risus libero proin ut purus consequat integer nunc habitant.”</p>
+            <div class="flex justify-center gap-1 text-yellow-400 text-xs mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="font-bold text-lg text-[#404A3D]">John</h4>
+            <p class="text-[10px] text-gray-400 uppercase tracking-[2px]">Business Man</p>
+        </div>
+        <div class="bg-white p-10 rounded-[40px] text-center shadow-sm relative">
+            <img src="images/customer3.png" class="w-20 h-20 rounded-full mx-auto mb-6">
+            <p class=" text-md mb-6 leading-relaxed">“Lorem ipsum dolor sit amet consectetur. Risus libero proin ut purus consequat integer nunc habitant.”</p>
+            <div class="flex justify-center gap-1 text-yellow-400 text-xs mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="font-bold text-lg text-[#404A3D]">Rose</h4>
+            <p class="text-[10px] text-gray-400 uppercase tracking-[2px]">Business Man</p>
+        </div>
+    </div>
+</section>
+
+<section class="py-24 px-12 bg-cream">
+    <h2 class="text-center text-4xl font-extrabold mb-16 text-[#404A3D]">Latest posts & articles</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div class="group cursor-pointer">
+            <div class="relative  rounded-[40px] mb-6">
+                <img src="images/post1.png" class="w-full h-72 group-hover:scale-105 ">
+                <span class="absolute top-6 left-6 bg-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase">Food Crops</span>
+            </div>
+            <div class="flex gap-4 text-[10px] text-gray-400 font-bold mb-3 uppercase">
+                <span class="flex gap-2">
+                    <img src="/images/calender.png " >March 28, 2024</span>
+                <span class="flex gap-2"><img src="/images/contact.png" >Admin</span>
+            </div>
+            <h3 class="text-xl text-[#404A3D] font-bold group-hover:text-agri-green transition">What technology is used in vertical farming?</h3>
+        </div>
+        <div class="group cursor-pointer">
+            <div class="relative  rounded-[40px] mb-6">
+                <img src="images/post2.png" class="w-full h-72  group-hover:scale-105 ">
+                <span class="absolute top-6 left-6 bg-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase">Organic Farm</span>
+            </div>
+            <div class="flex gap-4 text-[10px] text-gray-400 font-bold mb-3 uppercase">
+                <span class="flex gap-2"> <img src="/images/calender.png " ></i> March 28, 2024</span>
+                <span class="flex gap-2"><img src="/images/contact.png" > Admin</span>
+            </div>
+            <h3 class="text-xl font-bold text-[#404A3D] group-hover:text-agri-green transition">Which type of farming is more prevalent today?</h3>
+        </div>
+        <div class="group cursor-pointer">
+            <div class="relative  rounded-[40px] mb-6">
+                <img src="images/post3.png" class="w-full h-72  group-hover:scale-105 ">
+                <span class="absolute top-6 left-6 bg-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase">Farming Tips</span>
+            </div>
+            <div class="flex gap-4 text-[10px] text-gray-400 font-bold mb-3 ">
+                <span class="flex gap-2"><img src="/images/calender.png" > MARCH 28, 2024</span>
+                <span class="flex gap-2"><img src="/images/contact.png"> ADMIN</span>
+            </div>
+            <h3 class="text-xl font-bold text-[#404A3D] group-hover:text-agri-green transition">The Farmers Sentiment Darkens Hopes Fade</h3>
+        </div>
+    </div>
+    <div class="flex justify-center gap-4 mt-12">
+        <button class="w-12 h-12 rounded-lg border border-gray-200 flex items-center justify-center hover:bg-agri-green hover:text-white transition"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="w-12 h-12 rounded-lg border border-gray-200 flex items-center justify-center hover:bg-agri-green hover:text-white transition"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+</section>
+<footer class="mt-20">
+    <div class="bg-yellow-400 py-6 px-12 flex justify-between items-center">
+        <div class="flex items-center gap-2 font-bold text-[11px] tracking-widest">
+            <span>FARMERS</span>
+            <span>ORGANIC</span>
+            <span>FOODS</span>
+            
+            <span>PRODUCT</span>
+        </div>
+        <div class="flex gap-6 text-xs font-medium">
+            <span class="flex items-center gap-3   px-4 py-2">
+                <img src="images/phone.png" class="w-4 h-4"> + 1(212) 255-511
+            </span>
+            <span class="flex items-center gap-3 px-4 py-2">
+                <img src="images/wmail.png" class="w-4 h-4"> noreply@pbminfotech.com
+            </span>
+        </div>
+    </div>
+
+  
+    <div class="bg-white px-16 pt-16 pb-8 border-t border-gray-100 relative overflow-hidden">
+        
+        <div class="grid md:grid-cols-2 gap-12 max-w-7xl mx-auto">
+            
+
+            <div class="max-w-xs">
+                <div class="flex items-center gap-2 mb-4">
+                    <img src="images/logo.png" class="h-8">
+                    <span class="text-2xl font-bold text-[#404A3D]">grimo</span>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                    Mauris sed molestie sem. Sed vel vestibulum elit, non accumsan risus. In vitae sapien viverra est Duo ei ullum inani senserit.
+                </p>
+
+                <div class="flex gap-3">
+                    <a href="#" class="w-9 h-9 rounded-full  flex items-center justify-center ">
+                       <img src="/images/facebook.png" alt="">
+                    </a>
+                    <a href="#" class="w-9 h-9 rounded-full  flex items-center justify-center ">
+                       <img src="/images/x.png" alt="">
+                    </a>
+                    <a href="#" class="w-9 h-9 rounded-full  flex items-center justify-center ">
+                       <img src="/images/in.png" alt="">
+                    </a>
+                    <a href="#" class="w-9 h-9 rounded-full  flex items-center justify-center ">
+                       <img src="/images/insta.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold text-[#404A3D] mb-8 leading-snug">
+                    Professional & modern, a theme designed to help your business stand out from the rest.
+                </h2>
+                <div class="grid grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-[#404A3D] mb-4">Useful Link</h4>
+                        <ul class="text-sm text-gray-400 space-y-2">
+                            <li><a href="#" class="hover:text-yellow-500 transition">Company</a></li>
+                            <li><a href="about.html" class="hover:text-yellow-500 transition">About</a></li>
+                            <li><a href="faqs.html" class="hover:text-yellow-500 transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-[#404A3D] mb-4">Working Time</h4>
+                        <ul class="text-sm text-gray-400 space-y-2">
+                            <li>Mon - Fri: 9.00am - 5.00pm</li>
+                            <li>Saturday: 10.00am - 6.00pm</li>
+                            <li>Sunday Closed</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-[#404A3D] mb-4">Our Address</h4>
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Old Westbury 256, New York<br>11201, United States
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-gray-100 flex justify-between items-center text-xs text-gray-400">
+            <div class="flex gap-4">
+                <a href="#" class="hover:text-yellow-500 transition">Terms & Conditions</a>
+                <span>|</span>
+                <a href="#" class="hover:text-yellow-500 transition">Privacy Policy</a>
+            </div>
+            <p>Copyright © 2024 <span class="text-[#404A3D] font-semibold">Agrimo</span>, All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+    <script src="app.js"></script>
+</body>
+</html>
